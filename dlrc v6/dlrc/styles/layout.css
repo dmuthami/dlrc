@@ -1,0 +1,75 @@
+#masterhead{
+	padding: 12.8px 0px 0px 0px;
+	background-color: #B0C4DE;
+	padding-left:30px;
+	font-family:Cambria;
+	font-size:large;
+	color:Black;
+}
+/*Header Image*/
+#img
+  {
+  margin:5px;
+  padding: 5px;
+  border:1px solid #0000ff;
+  height:auto;
+  width:auto;
+  float:left;
+  padding-top:2px;
+  } 
+
+   /* grid styling*/
+#bottomPane { height: 100px; }
+    #grid { height: 100%; }
+    .dgrid { border: none; }
+    .field-id { cursor: pointer;
+                 }
+    
+    .none {
+    display:none;
+}
+#info
+{
+    text-indent:3px;
+    padding-top:3px;
+    padding-left:3px;
+    font-weight:bold;
+    
+}
+   
+      #HomeButton {
+      position: absolute;
+      top: 95px;
+      left: 20px;
+      z-index: 50;
+    }
+    #buttonlog
+    {
+        padding-left: 40px;
+        
+    }
+  .copyright 
+  {
+      text-align:center;
+      font-size:small;
+      padding-top:3px;
+      background-color:#C1CDC1;
+      height:40px;
+      }
+      .lgoutstyle
+      {
+          font-size:medium;
+          padding-bottom:3px;
+          text-align:right;
+          font-weight:bold;
+          padding-right:30px;
+          padding-top:-10px
+      }
+.loggedstyl
+{
+    text-align:right;
+}
+.loglbl
+{
+    text-align:left;
+}

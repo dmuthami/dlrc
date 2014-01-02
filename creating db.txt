@@ -1,0 +1,18 @@
+create database login;
+show databases;
+use login;
+
+create table nduser(
+usrid int NOT NULL AUTO_INCREMENT,
+ufirstname varchar(50),
+usecondname varchar(50),
+Email varchar(50),
+usrname varchar(50),
+passwrd varchar(25),
+userprivilledge varchar(40),
+code varchar(80),
+unique(usrid)
+);
+
+INSERT INTO nduser (`usrname`, `passwrd`, `userprivilledge`) VALUES ("admin", "admin", "admin");
+
